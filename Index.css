@@ -58,3 +58,20 @@ h3 {
     margin-left: 90px;
     margin-top: -15px;
 }
+
+.search{
+    margin-left: 90px;
+}
+
+.searchbar{
+    height: 30px;
+    width: 230px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: rgb(203, 203, 203);
+    
+}
+
+.searchbar::placeholder{
+    color: rgb(212, 210, 210);
+}
