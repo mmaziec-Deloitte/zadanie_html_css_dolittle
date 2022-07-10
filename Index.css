@@ -4,6 +4,7 @@ body {
     font-family: "Open Sans", sans-serif;
     margin: 0;
     box-sizing: border-box;
+    height: 1200px;
   }
 
 .header {
@@ -56,7 +57,7 @@ h1 {
 h3 {
     color: rgb(52, 51, 51);
     margin-left: 90px;
-    margin-top: -15px;
+    margin-top: -150px;
 }
 
 .search{
@@ -69,9 +70,56 @@ h3 {
     border-radius: 10px;
     border-style: ridge;
     border-color: rgb(203, 203, 203);
+    display: inline;
+    box-shadow: 0px 3px 2px rgb(190, 189, 189);
+
     
 }
 
 .searchbar::placeholder{
     color: rgb(212, 210, 210);
+}
+
+.sub_button{
+    display: inline;
+    float: inline-end;
+    margin-left: 15px;
+    border-radius: 10px;
+    height: 36px;
+    width: 90px;
+    background-color: rgb(251, 171, 126);
+    border-color: rgb(251, 171, 126);
+    border-style: none;
+    box-shadow: 0px 3px 2px rgb(190, 189, 189);
+    color: white;
+    font-weight: 550;
+}
+
+#searching{
+    display: flex;
+    flex-direction: row;
+}
+
+.sub_button:hover {background-color: #b67822}
+
+.sub_button:active {
+  background-color: #b67822;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.cooking{
+    height: 300px;
+    width: auto;
+    margin-top: 80px;
+    float: right;
+    margin-right: 200px;
+    
+    
+}
+
+.mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
