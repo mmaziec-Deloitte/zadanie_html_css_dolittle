@@ -127,10 +127,44 @@ h3 {
 
 .row{
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+   margin-top: 5rem;
    height: 600px; 
-   clear: both;
+   column-count: 2;
+   column-gap: 30%;
+   
 }
 
 .picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 400px;
+    margin-bottom: 10rem;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(203, 203, 203);
+    box-shadow: 0 3px rgb(203, 203, 203);
 
+    
+    
 }
+.select_pic{
+   
+    margin-top: 5px;
+    height: 185px;
+    width: auto;
+}
+
+
+.caption{
+    text-align: center;
+    font-weight: 900;
+    
+}
+
